@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* definindo variaveis para utilizar var */
 :root{
     --brand-color: #EF5F4C;
     --background-color: #FFFFFF;
@@ -12,6 +12,15 @@
     --shape-transparency: hsla(0, 0%, 100%, 0.560);
     --text-color-primary: #313131;
     --text-color-secundary: #6C6C6C;
+     
+    --font-family: "Poppins", sans-serif;
+     /* lg=large, a ordem é: peso, tamanho da fonte, altura da linha e depois puxar a variavel font family */
+    --text-lg: bold 32px/125% var(--font-family);
+    /* o pedido é de peso regular (padrão da fonte) logo não há necessidade de declarar */
+    --text-md: 14px/170% var(--font-family);
+    --text-sm: 12px/170% var(--font-family);
+    /* sobre as fontes não declaradas da barra de pesquisa, pode se usar 1.5 de multiplcador ao invés de 150%*/
+    --text: 16px/150% var(--font-family);
 }
 
 body{
