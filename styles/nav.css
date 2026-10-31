@@ -1,0 +1,36 @@
+
+
+
+nav{
+    /* para deixar os items lado a lado */
+    display: flex;
+    /* adicionando espaço entre os elementos, aqui é entre a logo e a barra de pesquisa */
+    justify-content: space-between;
+    /* centralizar no eixo  */
+    align-items: center;
+    /* remove qualquer espaço extra */
+    line-height: 0px;
+    /* adiciona espaço no eixo y, altura,  */
+    padding: 20px;
+}
+
+/* para tirar os pontos da lista */
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    /* espaço entre eles visto também no projeto */
+    gap: 20px;
+    /* padding entre cima e em baixo da lista */
+    padding-block: 8px;
+}
+
+/* possuem mais de duas imagens na lista, "li:last-child" busca o ultimo item da lista ou "filho" */
+nav ul li:last-child img {
+    width: 40px;
+    height: 40px;
+    /* caso sua imagem esteja distorcida */
+    object-fit: cover;
+    /* caso a imagem seja um quadrado e precise arrendondar */
+    border-radius: 50%;
+}

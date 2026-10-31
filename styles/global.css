@@ -27,3 +27,15 @@ body{
 color: var(--text-color-secundary);
 background-color: var(--background-color);
 }
+
+a{
+    /* tira a listra azul debaixo da lista, e a cor  */
+    text-decoration: none;
+    color: inherit
+}
+
+ /* hover faz com que quando o cursor passar acima de determinado lugar, haja uma interação, como mudar de cor */
+a:hover{
+    color: var(--brand-color);
+    text-decoration: underline;
+}
