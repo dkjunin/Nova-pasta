@@ -39,3 +39,17 @@ a:hover{
     color: var(--brand-color);
     text-decoration: underline;
 }
+
+ /*Um container é um elemento HTML utilizado para agrupar, organizar e controlar outros elementos dentro de uma página. Imagine um container como uma caixa que guarda textos, imagens, botões e até outras caixas. */
+
+.container{
+    /* padding do nav lateral, 32 para cada lado */
+    padding-inline: 32px;
+    /* largura maxima somada no projeto do figma */
+    max-width: 1280px;
+    /* vai criar margens iguais para ambos os lados */
+    margin-inline: auto;
+}
+
+.bg-color{
+    background-color: var(--surface-color);

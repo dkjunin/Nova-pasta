@@ -12,6 +12,7 @@ nav{
     line-height: 0px;
     /* adiciona espaço no eixo y, altura,  */
     padding: 20px;
+
 }
 
 /* para tirar os pontos da lista */
@@ -20,7 +21,7 @@ nav ul{
     display: flex;
     align-items: center;
     /* espaço entre eles visto também no projeto */
-    gap: 20px;
+    gap: 24px;
     /* padding entre cima e em baixo da lista */
     padding-block: 8px;
 }
