@@ -34,4 +34,5 @@ nav ul li:last-child img {
     object-fit: cover;
     /* caso a imagem seja um quadrado e precise arrendondar */
     border-radius: 50%;
+    margin-bottom: 5px;
 }
