@@ -1,0 +1,46 @@
+header{
+    padding-block: 32px;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#profile{
+    /* deixar os items lado a lado */
+    display: flex;
+    gap: 32px;
+}
+
+/* primeiro nivel de filho da div  */
+#profile > div{
+    max-width: 384px;
+}
+
+#profile h1{
+
+    font: var(--text-lg);
+    color: var(--text-color-primary);
+    margin-bottom: 8px;
+}
+
+#profile p{
+    font: var(--text-md);
+}
+
+#info {
+    list-style: none;
+    /* column alinha os items do flex no eixo y ficando na vertical  */
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 280px;
+}
+
+#info li{
+    display: flex;
+    align-items: center;
+    gap: 8px
+}
