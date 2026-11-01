@@ -1,0 +1,14 @@
+footer{
+    padding-top: 24px;
+    padding-right: 32px;
+    padding-bottom: 24px;
+    padding-left: 32px;
+    display: flex;
+    gap: 16px;
+    
+}
+
+footer span:nth-child(1){
+    margin-right: auto;
+
+}
